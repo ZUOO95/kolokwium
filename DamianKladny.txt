@@ -1,0 +1,30 @@
+3
+git log
+commit 62e28112832523d6f45f6a85af5f4e02a566b9cf (HEAD -> master, origin/master, origin/HEAD)
+Author: Joanna Kolodziejczyk <jkolodziejczyk@wi.zut.edu.pl>
+Date:   Fri Dec 15 13:47:15 2017 +0100
+
+4
+git -ls files
+w katalogu s¹ 4 pliki
+
+5 cat README.md
+# Test-Ruby
+
+6
+git init
+
+7
+git add DamianKladny.txt
+git commit -m "Dodanie pliku"
+git remote add origin https:/github.com/ZUOO95/kolokwium.git
+git push -u origin master
+
+8
+mkdir kolo
+cd kolo
+git clone https://github.com/elois/Test-Ruby
+
+
+
+
